@@ -15,7 +15,7 @@
             <div class="form-row">
               <div class="col-md-4 mb-3">
                 <label class="sr-only">Keywords</label>
-                <input type="text" name="keywords" class="form-control" placeholder="Keyword (Pool, Garage, etc)" value="{{ values.keywords }}">
+                <input type="text" name="keywords" class="form-control" placeholder="Keyword (Native Game, Exotic Game, etc.)" value="{{ values.keywords }}">
               </div>
 
               <div class="col-md-4 mb-3">
@@ -38,7 +38,7 @@
               </div>
             </div>
             <!-- Form Row 2 -->
-            <div class="form-row">
+            <!--<div class="form-row">
               <div class="col-md-6 mb-3">
                 <label class="sr-only">Bedrooms</label>
                 <select name="bedrooms" class="form-control">
@@ -51,8 +51,8 @@
                       >{{ value }}</option>
                     {% endfor %}
                 </select>
-              </div>
-              <div class="col-md-6 mb-3">
+              </div>-->
+              <div class="col-md-14 mb-3">
                 <select name="price" class="form-control">
                   <option selected="true" disabled="disabled">Max Price (All)</option>
                   {% for key,value in price_choices.items %}
@@ -65,7 +65,7 @@
                 </select>
               </div>
             </div>
-            <button class="btn btn-secondary btn-block mt-4" type="submit">Submit form</button>
+            <button class="btn btn-secondary btn-block mt-4" type="submit">Search</button>
           </form>
         </div>
       </div>
