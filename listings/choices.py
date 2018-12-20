@@ -25,6 +25,10 @@ price_choices = {
 }
 
 state_choices = {
+  'TX': 'Texas',
+}
+
+'''state_choices = {
         'AK': 'Alaska',
         'AL': 'Alabama',
         'AR': 'Arkansas',
@@ -82,4 +86,4 @@ state_choices = {
         'WI': 'Wisconsin',
         'WV': 'West Virginia',
         'WY': 'Wyoming'
-}
+}'''
